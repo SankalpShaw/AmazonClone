@@ -144,6 +144,7 @@ span{
 .panel-ops{
     width: 70%;
     font-size: 0.85rem;
+    display: flex;
 }
 .panel-deals{
     font-size: 0.9rem;
@@ -200,6 +201,7 @@ span{
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    background-position: center;
 }
 .box-content{
     
@@ -270,9 +272,6 @@ footer{
     font-size: 0.7rem;
     text-align: center;
     
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .pages{
@@ -310,5 +309,95 @@ footer{
     .panel-deals{
         display: none;
     }
+    .hero-section{
+        background-position: center;
+    }
 
+}
+@media only screen and (max-width:618px) {
+    
+    .nav-search{
+        width: 30%;
+    }
+    .nav-address{
+        display: none;
+    }
+    .hero-msg{
+        height: 60px;
+    }
+    .hero-section{
+        background-position: center;
+    }
+    .search-input {
+        font-size: 0.85rem;
+        }
+
+}
+@media only screen and (max-width:550px) {
+    
+
+    .hero-section{        
+        background-position-x:right 25% ;
+        background-image: url(Shop\ with\ Amazon.png);
+
+    }
+    
+    h2{
+        font-size: 1rem;
+    }
+    .nav-signin{
+        display: none;
+    }
+    .letus{
+        display: none;
+    }
+    
+    .search-input {
+    font-size: 0.60rem;
+    }
+    #id6{
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width:390px) {
+    .search-input {
+        font-size: 0.45rem;
+        font-weight: bold;
+        }
+    #id5{
+        visibility: hidden;
+    }
+    .foot-panel2{
+        padding-right: 1.6rem;
+    }
+    .logo{
+        width: 5rem;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    
+
+    .hero-section{        
+        background-position-x:right 25% ;
+        background-image: url(Black\ Elegant\ Personal\ LinkedIn\ Banner.png);
+
+    }
+    .hero-msg{
+        display: none;
+    }
+    #id4{
+        visibility: hidden;
+    }
+    .box{
+        width:45%;
+    }
+    .foot-panel2 ul{
+        padding: 20px;
+    }
+    .AmazonP{
+        display: none;
+    }
 }
